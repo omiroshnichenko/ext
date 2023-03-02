@@ -11,7 +11,9 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "omiroshnichenko/product": "1.0.1"
     },
-    "version": "1.0.3"
+    "conflict": {
+        "omiroshnichenko/product": "*"
+    },
+    "version": "1.0.4"
 }
